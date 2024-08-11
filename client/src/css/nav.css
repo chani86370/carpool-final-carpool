@@ -1,0 +1,130 @@
+@import url(https://dl.dropboxusercontent.com/u/15746367/fonts/carmela/style.css);
+@import url(https://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+@import url(https://fonts.google.com/specimen/Shantell+Sans);
+@import url(https://fonts.google.com/specimen/Tilt+Neon);
+
+nav {
+    font-weight: var(600, 600);
+    font-size: 0;
+    display: flex;
+    align-items: flex-end;
+    /* background-color:rgb(196, 176, 151); */
+    background-color:#f6f8fa;
+    padding: 0;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width:100%;
+    height: 9%;
+    z-index: 1000; 
+    box-shadow: inset 0 calc(max(1px, 0.0625rem) * -1) #d0d7de;
+  }
+
+
+nav a,.userName {
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(36 33 33);
+    cursor: pointer;
+    text-shadow: 0 0 1px;
+    padding: 10px 20px 13px 20px;
+}
+
+.userName{
+  padding: 5px 20px 5px 20px;
+}
+
+
+nav a:hover,.userName:hover {
+    transform: scale(1.2);
+}
+
+nav a,.userName {
+    transition: 0.7s;
+}
+
+nav>a>img {
+    width: 1.5em;
+    margin-top: 8px;
+    padding-bottom: 0px;
+}
+.user:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-direction: alternate;
+}
+nav>img{
+  width: 100px;
+  border-left: 2px solid #197935;
+  border-right: 2px solid #197935;
+    border-radius: 0.5rem;
+}
+.userName{
+    font-size: small;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 83px;
+    left: 13%;
+    background-color: white;
+    box-shadow: 0px 6px 12px -3px #424a530a, 0px 6px 18px 0px #424a531f;
+    z-index: 1;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 0.001px solid #d0d7de;
+   }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown-menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width:500px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: 20%;
+     
+    }
+    nav a,.userName{
+        font-size: 17px;
+        padding: 6px;
+        
+    }
+}
+.svg{
+    width:20px;
+    height: 20px;
+    margin-left: 35%;
+}

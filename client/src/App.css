@@ -1,0 +1,175 @@
+#root {
+  /* margin: 0px;
+  width: 100%; */
+  direction: ltr;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ffffff;
+
+}
+html{
+  height: 100%;
+  margin-bottom: 0;
+  background-color: #ffffff;
+}
+.body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .logout {
+  width: 380px;
+  max-width: 380px;
+  padding: 1rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  direction: ltr;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+} */
+
+.registration {
+  width: 380px;
+  max-width: 380px;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  direction: ltr;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 0;
+  /* margin-top: 5%; */
+  /* background: rgb(240, 205, 205); */
+
+}
+
+.input:focus {
+  border-color:#1f883d;
+  background: #ffffff;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #d0d7de;
+  outline: none;
+  background-color: #f6f8fa;
+  transition: 0.2s, black 0.2s;
+  margin-bottom: 0.5rem;
+  box-shadow: inset 0px 1px 0px 0px #1f23280a;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+
+.Connect,
+.btnOkSignUp,
+.btnOkLogIn {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.375rem;
+  outline: none;
+  cursor: pointer;
+  background: #1f883d;
+  margin-bottom: 1rem;
+  box-shadow: 0px 1px 0px 0px #1f23280a;;
+}
+
+.button:hover {
+  background:#1f883d;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.text {
+  text-align: center;
+}
+
+.link {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.error {
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.btnCancel,
+.btnConfirm {
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background:#1f883d;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+ background-color: #1f883d;
+  margin: 4px;
+}
+
+.btn{
+  border-color:  #3a3939;
+  border-radius: 4px;
+  border-style: groove;
+}
+.loadMore{
+  margin-left: 80%;
+  margin-top: 5%;
+}
+.wallet{
+  width: 90%; height: 90%; 
+  margin-left: 2%;
+}
+.picture{
+  max-height: 200px ;
+}
+.drop{
+
+    border: 2px; 
+    padding: 20px;
+    cursor: pointer;
+}

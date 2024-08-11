@@ -1,0 +1,194 @@
+.searchRide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  padding: 20px;
+  height: 100%;
+  margin-right: auto;
+}
+
+.sinput {
+  display: block;
+  width: 97%;
+  margin-bottom: 10px;
+  margin-left: 3%;
+}
+
+.error {
+  color: red;
+}
+
+.dateBtnSearch {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.searchRideBtn {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 10px;
+}
+
+.searchInput {
+  width: 100%;
+  height: 5%;
+  margin-bottom: 3.5%;
+}
+
+.signLocation {
+  margin-right: 8px;
+  align-self: flex-start;
+}
+
+.searchDataSourceDestination {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  margin-bottom: 20px;
+  margin-left: 3%;
+  margin-top: 14%;
+}
+
+.searchPartData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 170px;
+}
+
+
+#map {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 40%;
+  /* מקצה 40% מהרוחב למפה */
+  height: 90%;
+  margin-top: 4.3%;
+}
+
+.suggestions {
+  /* position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-top: 10px; */
+  text-align: end;
+  padding: 0;
+  height: 90%;
+  /* min-height: 120px; */
+  overflow: auto;
+  width: 92%;
+  /* margin: 0; */
+  z-index: 1000;
+  box-shadow: 0 7px 17px rgba(0, 0, 0, .15);
+  background-color: #eeeeee;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  margin-top: -6%;
+}
+
+.stopSuggestion {
+  width: 100%;
+}
+
+.suggestions>li {
+  padding: 2% 2% 2% 2%;
+  border-bottom: 1px solid gray;
+}
+
+.source {
+  width: 100%;
+}
+
+.destination {
+  width: 100%;
+}
+
+.addRideDetails {
+  width: 87%;
+  margin-left: 3%;
+  margin-bottom: 20px;
+}
+
+.formAddRide {
+  width: 60%;
+  margin-left: 2%;
+}
+
+.inputStop {
+  width: 87%;
+  margin-left: 3%;
+}
+
+.stopsLabel{
+  margin-left: 4%;
+  margin-top: 0;
+}
+
+.selectedStops {
+  margin-left: 3%;
+  width: 75%;
+  box-shadow: 0 7px 17px rgba(0, 0, 0, 0.15);
+  text-align: start;
+  overflow-wrap: break-word;
+  list-style: none;
+  padding: 0;
+}
+
+.selectedStops > li {
+  border: 1px solid #d0d7de;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f6f8fa;
+}
+
+.deleteIcon {
+  margin-right: 10px;
+}
+
+.stopsDiv{
+  margin-left: 3%;
+  margin-bottom: 5%;
+  border: 1px solid #d0d7de;
+  border-radius: 0.375rem;
+  padding: 3%;
+  width:68%;
+}
+
+
+@media (max-width: 768px) {
+  .searchRide {
+    width: 100%;
+    min-height: 100vh;
+    /* הוספת min-height גם עבור גודל קטן */
+  }
+
+  #map {
+    width: 100%;
+    /* height: 50vh; גובה קבוע עבור המפה במצב מסך קטן */
+    top: 80%;
+    right: 0;
+    margin-bottom: 30px;
+    min-height: 100vh;
+    /* הוספת min-height גם עבור גודל קטן */
+  }
+
+  body {
+    overflow-y: scroll;
+  }
+
+  .searchInput {
+    margin-bottom: 0;
+  }
+  .selectedStops{
+    width:80%;
+    margin-left: 3%;
+  }
+}

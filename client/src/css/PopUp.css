@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.popup {
+  font-family: 'Quicksand', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: 27px;
+  margin-top: 0;
+  transform: translateX(-50%);
+  z-index: 999;
+  animation: slideDown 0.5s ease-out;
+  overflow-y: auto;
+  background-color: #f6f8fa;
+  margin-top: 7%;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border: 1px solid #d0d7de;
+}
+
+
+.logOut {
+  padding-top: 1%;
+  padding-left: 2%;
+  margin: 15% auto 10% auto;
+  border: 2px solid #d0d7de;
+  width: 25%;
+  height: 30%;
+  font-size: larger;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.logOut>button{
+  background-color: #7d8fa1;
+}

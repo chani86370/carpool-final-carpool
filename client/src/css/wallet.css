@@ -1,0 +1,10 @@
+.wallet {
+    width: 90%;
+    margin: 6% 10% 7% 4%;
+    height: 50%;
+    max-height: 75vh;
+}
+
+.loadMore {
+    margin-top: 0;
+}

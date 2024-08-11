@@ -1,0 +1,85 @@
+html, body { 
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    height: 100%;
+}
+
+#root {
+    width: 100%;
+    height:100%;
+    /* margin:5%; */
+}
+    
+.userTravelsContainer {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, minmax(450px, auto));
+    grid-auto-rows: 380px;
+    margin: 7% 21% 10% 23%;
+}
+
+.btnOptionFilterUserRides{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 130px));
+    grid-auto-rows: 60px;
+    margin-right: 10%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.btnOptionFilterUserRides>button{
+    font-size: 15px; 
+    font-weight: 500;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: inline-block; 
+    padding: 5px; 
+    border: max(1px, 0.0625rem) solid;
+}
+
+.rides{
+    width:97%;
+    margin-left: 8%;
+}
+.singleRide{
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 3%;
+    padding-left: 13%;
+    margin-left: 5%;
+    width: 70%;
+}
+
+.markDriverOrPassenger{
+    margin-right: 3%;
+    margin-left: 95%;
+}
+
+.label{
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+.viewMore{
+   margin-left: 80%;
+   margin-top: -100px;
+}
+.spanLikes {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6%;
+    justify-content: flex-end;
+    margin-right: 5%;
+    text-align: end;
+}
+
+.spanLikes > * {
+    margin: 0 5px;
+}
